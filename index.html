@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Photo App</title>
+  </head>
+  <body>
+    <main>
+      <h1>DogPhotoApp</h1>
+      <section>
+        <h2>Dog Photos</h2>
+        <p>See more <a href="https://www.pexels.com/search/dog/" target="_blank">dog photos</a> in our gallery.</p>
+        <img src="https://images.pexels.com/photos/840326/pexels-photo-840326.jpeg" alt="Puppy hidding his nose in the palm of a person" width="400px" height="300px" />
+      </section>
+      <section>
+        <h2>Dog Lists</h2>
+        <h3>Things dogs love:</h3>
+        <ul>
+          <li>attention and afection</li>
+          <li>playtime and exercise</li>
+          <li>treats and food</li>
+        </ul>
+        <figure>
+          <img src="https://images.pexels.com/photos/4459859/pexels-photo-4459859.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Dog catches a ball in a park" width="400px" height="300px" />
+          <figcaption>
+            Dogs <em>love</em> to catch ball
+          </figcaption>
+        </figure>
+        <h3>Top 3 things dogs hate:</h3>
+        <ol>
+          <li>Loud noises</li>
+          <li>Being alone for long periods</li>
+          <li>Punishments</li>
+        </ol>
+        <figure>
+          <img src="https://images.pexels.com/photos/5205649/pexels-photo-5205649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Dog sitting alone at the bottom of the stairs" width="400px" height="300px" />
+          <figcaption>Dogs <strong>hate</strong> being alone</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Dog Form*</h2>
+        <form action>
+          <fieldset>
+            <legend>Is your dog calm or energetic?</legend>
+            <label><input id="calm" type="radio" name="calm-energetic" value="calm" checked> Calm</label>
+            <label><input id="energetic" type="radio" name="calm-energetic" value="energetic"> Energetic</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your dog's favorite activity?</legend>
+            <label><input id="run" type="checkbox" name="activity" value="run"> Running</label>
+            <label><input id="catch" type="checkbox" name="activity" value="catch"> Catching ball</label>
+            <label><input id="pet" type="checkbox" name="activity" value="pet"> Being petted</label>
+            <label><input id="sleep" type="checkbox" name="activity" value="sleep"> Sleeping</label>
+          </fieldset>
+
+        </form>
+        <p>*This form is just for exercise purpose only. It doesn't upload the user's input.</p>
+      </section>
+    </main>
+  </body>
+</html>
