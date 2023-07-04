@@ -10,3 +10,4 @@ The HTML concepts used to create this Dog Photo App are the following:
 + add a form to the webpage
 + add a footer to the webpage
 
+![image](https://github.com/cipriancrisan/HTML_BasicStaticPage/assets/115809996/87d9766f-4466-4768-83cf-1a59009713eb)
